@@ -182,6 +182,11 @@ body {
   margin-top: 10px;
 }
 
+.card-item:hover{
+  transform: scale(1.1);
+  border: 2px solid;
+}
+
 .card-item img {
   width: 100%;
 }
@@ -238,6 +243,11 @@ body {
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
 }
 
+.iframe-card:hover{
+  transform: scale(1.1);
+  border: 2px solid;
+}
+
 .iframe-card iframe {
   border-radius: 10px;
   width: 100%;
@@ -292,6 +302,11 @@ body {
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
 }
 
+.galeria img:hover{
+  transform: scale(1.2);
+  border: 2px solid;
+}
+
 .contenedor-valores {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -312,10 +327,20 @@ body {
   margin-right: 20px;
 }
 
+.valores:hover{
+  border: 2px solid;
+}
+
 .valores h4 {
   padding: 20px;
   font-size: 1.3em;
 }
+
+.valores h4:hover{
+  transform: translate(20px);
+  transition: 1s;
+}
+
 
 /* Estilos contacto */
 
